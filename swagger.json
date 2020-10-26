@@ -14,6 +14,9 @@
             "get": {
                 "description": "Get a new user",
                 "parameters": [],
+                "produces": [
+                    "application/json"
+                ],
                 "responses": {
                     "200": {
                         "description": "OK"
