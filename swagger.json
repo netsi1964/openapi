@@ -5,7 +5,7 @@
         "version":"1.0"
     },
     "servers": [
-        {"url":"https://api.server.test/v1"}
+        {"url":"https://loving-bardeen-a360f2.netlify.app"}
     ],
     "paths": {
         "/user": {
