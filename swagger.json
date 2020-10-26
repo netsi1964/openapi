@@ -1,11 +1,13 @@
 {
-    "openapi":"3.0.2",
+    "openapi": "3.0.2",
     "info": {
-        "title":"Dummy user",
-        "version":"1.0"
+        "title": "Dummy user",
+        "version": "1.0"
     },
     "servers": [
-        {"url":"https://loving-bardeen-a360f2.netlify.app"}
+        {
+            "url": "https://loving-bardeen-a360f2.netlify.app"
+        }
     ],
     "paths": {
         "/user": {
@@ -19,6 +21,18 @@
                 }
             }
         }
-
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                }
+            },
+            "xml": {
+                "name": "User"
+            }
+        }
     }
 }
