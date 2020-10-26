@@ -1,0 +1,14 @@
+openapi: 3.0.2
+info:
+  title: Dummy user
+  version: "1.0"
+servers:
+  - url: https://loving-bardeen-a360f2.netlify.app
+paths:
+  /user:
+    get:
+      description: Get a new user
+      parameters: []
+      responses:
+        "200":
+          description: OK
