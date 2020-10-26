@@ -7,7 +7,7 @@ servers:
 paths:
   /user:
     get:
-      description: Get a new user
+      description: Get a user
       parameters: []
       responses:
         "200":
