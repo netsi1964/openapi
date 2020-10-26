@@ -1,4 +1,5 @@
 /*
   Access-Control-Allow-Origin: *
-/*.json
+  
+/swagger.json
   Content-Type: application/json
