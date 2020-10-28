@@ -21,7 +21,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "type": "User",
+                  "type": "object",
                   "properties": {
                     "name": {
                       "type": "string"
