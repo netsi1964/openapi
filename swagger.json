@@ -14,7 +14,6 @@
       "get": {
         "description": "Get a new user",
         "parameters": [],
-        "produces": ["application/json"],
         "responses": {
           "200": {
             "description": "OK",
@@ -32,19 +31,6 @@
             }
           }
         }
-      }
-    }
-  },
-  "definitions": {
-    "User": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string"
-        }
-      },
-      "xml": {
-        "name": "User"
       }
     }
   }
